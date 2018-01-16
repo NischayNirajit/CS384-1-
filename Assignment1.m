@@ -18,6 +18,8 @@ for n=10:10:100
    
 end
 plot(xB1,yB1,xB2,yB2,xI3,yI3)
+title('Graph comparisions between bubble sort and insertion sort')
+legend('y=Bubble Sort1','y=Bubble Sort2','y=Insertion Sort1','location','west')
 xlabel('no of elements')
 ylabel('no of comparisions')
 
